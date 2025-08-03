@@ -18,7 +18,7 @@ const bottol = {
 }
 // console.log(bottol);
 
-
+// **উদাহরণ ২: Nested Object (ভিতরের ভিতরে)
 const creativeIt = {
     team : ["Rimon" , "Al-amin" , "Shakib"],
     batch : "2409",
@@ -33,3 +33,14 @@ const creativeIt = {
 console.log(creativeIt);
 
 //Orthat object er vitor array,object egula sob rakha jai
+
+
+// **উদাহরণ ৩: Array of Objects
+
+let users = [
+  { name: "Rimon", age: 22 },
+  { name: "Tamim", age: 21 },
+  { name: "Shakib", age: 23 }
+];
+
+console.log(users[1].name); // "Tamim"
