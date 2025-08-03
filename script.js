@@ -31,3 +31,38 @@ if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
 }
 
 // **বড় অক্ষরে লিখলেও মিলিয়ে ফেলবে কারণ আমরা দুইটাকেই lowercase করেছি। toUpperCase Same kaj kore
+
+
+// ================Trim Concept==============
+
+// **.trim() একটি string method যা স্ট্রিং-এর শুরু ও শেষে থাকা ফাঁকা জায়গা (space/tab/newline) কেটে ফেলে।
+
+// .trim() শুধু আগে ও পরে থাকা spaces কেটে দেয়
+
+// মাঝখানের স্পেস ঠিকই থাকে
+
+// 01:trimStart()	শুধু শুরু থেকে কেটে ফেলে;
+
+// 02:trimEnd()	শুধু শেষে থেকে কেটে ফেলে
+
+let creative = "Al-Amin";
+let remon = "  Remon"
+
+// majkhane faka thakar karone false part ta nibe
+
+if (creative === remon) {
+    console.log("I Love Creative It");
+} else {
+    console.log("I Hate Others");
+}
+
+// let me solve this
+
+let team = "Mr-alamin";
+let member = "  mr-alamin";
+
+if (team.trim().toLowerCase() === member.trim().toLowerCase()) {
+    console.log("Hello Programmer");
+} else {
+    console.log("Bye Creative it");
+}
