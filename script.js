@@ -48,7 +48,7 @@ if (userInput.toLowerCase() === correctAnswer.toLowerCase()) {
 let creative = "Al-Amin";
 let remon = "  Remon"
 
-// majkhane faka thakar karone false part ta nibe
+// মাঝখানে ফাঁকা থাকার কারনে False পার্ট টা নিবে
 
 if (creative === remon) {
     console.log("I Love Creative It");
