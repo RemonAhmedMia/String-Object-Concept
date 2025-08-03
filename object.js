@@ -44,3 +44,22 @@ let users = [
 ];
 
 console.log(users[1].name); // "Tamim"
+
+
+
+const person = {
+    name : "Sahkib",
+    age : 35,
+    profession : "Cricketer",
+    "fav place" : ["Cox-bazar" , "bandarban" , "Saint-martin" , "America"],
+    beton : 2348758798,
+}
+
+// object access korar first way dot (.) diye:
+console.log(person.name);
+
+// way 02: bracket diye accecss [] diye:
+console.log(person["fav place"]); // ekhane dot deoa jabe na, jodi properties emn gap wala hoi tokhn properties set korte hobe "" er vitor ar access korte hobe [] diye
+
+person.profession = "Teaching"
+console.log(person); // to change value
