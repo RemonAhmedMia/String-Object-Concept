@@ -37,3 +37,38 @@ console.log(sentence.split("a"));
 let friendStr = "Rimon,Al-Amin, Shakib,Tamim,Rahim";
 let friends = friendStr.split(",");
 console.log(friends);  //array diye sob gula k alada upadan baniye felbe like ['Rimon', 'Al-Amin', ' Shakib', 'Tamim', 'Rahim'];
+
+
+// Join======================
+// .join() method দিয়ে তুমি array এর সব উপাদানকে একসাথে জুড়ে দিতে পারো,
+//  মাঝখানে একটি নির্দিষ্ট separator (যেমন space, comma, dash) বসিয়ে।
+
+
+let realFriend = ["Shakib" , "Tamim" , "Ramim" , "Hamim"];
+console.log(realFriend.join()); //Return as normal string with ,;
+console.log(realFriend.join("|")); //Shakib|Tamim|Ramim|Hamim
+
+
+
+// .concat()===============
+
+// .concat() method দিয়ে তুমি দুইটা (বা তার বেশি) array বা string একসাথে জুড়ে ফেলতে পারো।
+// অর্থাৎ: জোড়া দেওয়া বা যুক্ত করা – এটিই হলো "concat" এর কাজ।
+
+// 01:Type
+let firstName = "Rimon";
+let lastName = "Mia";
+let final = firstName + " " + lastName;
+// let finalTwo = firstName.concat(" ").lastName.concat();
+console.log(final);
+// console.log(finalTwo);
+
+
+
+// 02:type
+
+let boys = ["Rimon", "Shakib"];
+let girls = ["Tania", "Sadia"];
+
+let allFriends = boys.concat(girls);
+console.log(allFriends);
