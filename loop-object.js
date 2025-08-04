@@ -14,10 +14,10 @@ for (const prop in mobile) {
 }
 
 // type-02
-const keys = Object.keys(mobile);
-console.log(keys); // aray akhare dibe;
-for (const key of keys) {
-    console.log(key);
-   // console.log(key,mobile[key]);
-    console.log(key, ":" , mobile[key]); // jeheto array tai for of diye korechi
-}
+// const keys = Object.keys(mobile);
+// console.log(keys); // aray akhare dibe;
+// for (const key of keys) {
+//     console.log(key);
+//    // console.log(key,mobile[key]);
+//     console.log(key, ":" , mobile[key]); // jeheto array tai for of diye korechi
+// }
